@@ -16,5 +16,5 @@ function start(route) {
         }
     }).listen(8888);
 }
-
+console.log('Server running at http://127.0.0.1:8888/');
 exports.start = start;
